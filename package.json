@@ -1,6 +1,6 @@
 {
   "name": "energykill-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "description": "A CLI tool for generating plugins for the Swiftly Framework on Source 2",
   "bin": {
