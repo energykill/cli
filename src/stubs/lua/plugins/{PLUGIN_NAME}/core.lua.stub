@@ -1,0 +1,12 @@
+function GetPluginAuthor()
+    return "{PLUGIN_AUTHOR}"
+end
+function GetPluginVersion()
+    return "{PLUGIN_VERSION}"
+end
+function GetPluginName()
+    return "{PLUGIN_NAME}"
+end
+function GetPluginWebsite()
+    return "{PLUGIN_URL}"
+end

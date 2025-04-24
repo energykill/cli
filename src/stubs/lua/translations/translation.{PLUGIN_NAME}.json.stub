@@ -1,0 +1,8 @@
+{
+    "hello": {
+        "en": "Hello",
+        "pl": "Cześć",
+        "de": "Hallo",
+        "ro": "Salut"
+    }
+}

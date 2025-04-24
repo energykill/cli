@@ -1,0 +1,31 @@
+{
+  "name": "energykill-cli",
+  "version": "1.0.2",
+  "type": "module",
+  "description": "A CLI tool for generating plugins for the Swiftly Framework on Source 2",
+  "bin": {
+    "energykill": "./bin/cli.js"
+  },
+  "scripts": {
+    "dev": "tsup src/cli.ts --watch --format esm --target node18 --out-dir bin && node scripts/copy_stubs.mjs",
+    "build": "tsup src/cli.ts --format esm --target node18 --out-dir bin && node scripts/copy_stubs.mjs",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "EnergyKill Development Team",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.5.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.14.1",
+    "prettier": "^3.5.3",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  }
+}

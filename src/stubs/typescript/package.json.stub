@@ -1,0 +1,19 @@
+{
+    "name": "{PLUGIN_NAME}",
+    "version": "{PLUGIN_VERSION}",
+    "description": "{PLUGIN_DESCRIPTION}",
+    "main": "index.js",
+    "scripts": {
+      "build": "tsc"
+    },
+    "keywords": [],
+    "author": "{PLUGIN_AUTHOR}",
+    "license": "MIT",
+    "type": "commonjs",
+    "devDependencies": {
+      "@types/node": "^22.13.13",
+      "@types/swiftlycs2": "github:swiftly-solution/js-types#master",
+      "typescript": "^5.8.2"
+    }
+  }
+  

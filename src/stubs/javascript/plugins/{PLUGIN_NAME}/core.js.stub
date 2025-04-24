@@ -1,0 +1,15 @@
+function GetPluginAuthor() {
+    return "{PLUGIN_AUTHOR}";
+}
+
+function GetPluginVersion() {
+   return "{PLUGIN_VERSION}"
+}
+
+function GetPluginName() {
+    return "{PLUGIN_NAME}";
+}
+
+function GetPluginWebsite() {
+    return "{PLUGIN_URL}";
+}
